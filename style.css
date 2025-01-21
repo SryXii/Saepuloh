@@ -1,0 +1,67 @@
+.jumbotron {
+    color: white;
+    position: relative;
+    padding-top: 100px;
+}
+
+.jumbotron::after {
+    content: "";
+    background: #3dbcfc;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+html {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .cird {
+        padding:10rem 0;
+    }    
+}
+
+.ty {
+    background-color:#fff;
+    color:#3dbcfc;
+}
+
+.nav-link {
+    position:relative;
+    padding: 0.5rem 0.5rem;
+}
+
+.po {
+    background-image: url("/assets/vivi.jpg");
+    background-size: cover;
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+}
+
+.pu {
+    background-image: linear-gradient(transparent 10%, black 75%);
+}
+
+.pa {
+    background-image: linear-gradient(to right,#fafafa ,#c4e1fc);
+    color: transparent;
+    background-clip: text;
+}
+
+.l {
+    color: #3dbcfc;
+    text-decoration: none;
+}
